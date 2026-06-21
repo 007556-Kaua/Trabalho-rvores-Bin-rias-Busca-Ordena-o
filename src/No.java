@@ -1,9 +1,12 @@
-
 public class No {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    Livro livro;
+    No esquerda;
+    No direita;
 
-	}
-
+    public No(Livro livro) {
+        this.livro = livro;
+        this.esquerda = null;
+        this.direita = null;
+    }
 }
